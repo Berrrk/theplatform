@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+const BASE_URL = 'https://theplatform-v90n.onrender.com';
+fetch(`${BASE_URL}/api/endpoint`);
 
 function MyButton() {
   return (
