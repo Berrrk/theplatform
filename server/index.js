@@ -15,4 +15,8 @@ app.listen(PORT, () => {
   console.log(`Server is working: http://localhost:${PORT}`);
 });
 
+app.get('/', (req, res) => {
+  res.send('Backend çalışıyor!');
+});
+
 app.use(cors())
