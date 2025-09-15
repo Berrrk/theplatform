@@ -16,5 +16,7 @@ export default function MyApp() {
       <h1>Welcome to my app</h1>
       <MyButton />
     </div>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2105645607644335"
+     crossorigin="anonymous"></script>
   );
 }
